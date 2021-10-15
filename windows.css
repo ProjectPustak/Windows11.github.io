@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('bg.jpeg') ;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    top: 1000px;
+    
+   
+}
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 7%;
+    background-color: white;
+    z-index: 110000;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+    margin: 2px;
+    height: 90%;
+    
+    
+}
+
+.startmenu{
+
+    position: absolute;
+    /* bottom: 60px; */
+    bottom: -650px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+    
+
+}
+.startmenu img{
+    border-radius: 8px;
+}
+
+.icons{
+    color: white;
+    /* margin: 18px; */
+    margin-top: 13px;
+    margin-left: 47px;
+}
+.chrome{
+    margin-left: 3px;
+}
+
+.icons2{
+    color: white;
+    
+    margin-top: 13px;
+    margin-left: 43px;
+
+}
+.me{
+    margin-left: 3px;
+}
+.icons3{
+    color: white;
+   
+    margin-top: 13px;
+    margin-left: 17px;
+}
+.Word{
+    margin-left: 34px;
+}
+.icons4{
+    color: white;
+   
+    margin-top: 13px;
+    margin-left: 42px;
+}
+.youtube{
+    margin-left: 10px;
+}
